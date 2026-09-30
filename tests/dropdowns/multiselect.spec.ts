@@ -28,11 +28,11 @@ await page.waitForTimeout(5000)*/
 await page.locator("#searchDropdownBox").selectOption({index: 17})
 await page.locator("#nav-search-submit-button").click()
 await page.waitForTimeout(5000)
-/*await page.locator("[aria-label='Personal Touch Melakey Radiance Cream for Hyperpigmentation & Melasma | 20gm | Pigmentation Removal Cream | 5% Azelaic Acid | Dark Spot Corrector with Glycolic Acid & Niacinamide for Even Skin Tone | Depigmentation']").click()
+await page.locator("[aria-label='Personal Touch Melakey Radiance Cream for Hyperpigmentation & Melasma | 20gm | Pigmentation Removal Cream | 5% Azelaic Acid | Dark Spot Corrector with Glycolic Acid & Niacinamide for Even Skin Tone | Depigmentation']").click()
 await page.waitForTimeout(5000)
 await page.locator("[id='add-to-cart-button']").click()
 await page.waitForTimeout(5000)
-await page.locator("[name='proceedToRetailCheckout']").click()*/
+await page.locator("[name='proceedToRetailCheckout']").click()
 await page.getByRole("img",{name: "PC_Tablets"}).click()
 await page.waitForTimeout(5000)
 await page.locator("[aria-label='Samsung Galaxy Tab A11+, 11-inch (27.82 CM), LCD Display, 6GB RAM, 128GB ROM, Wi-Fi+5G, Quad Speakers, Dolby Atmos, Gray, AI Enabled']").click()
