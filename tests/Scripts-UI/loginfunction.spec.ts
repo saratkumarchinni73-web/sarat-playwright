@@ -1,5 +1,5 @@
 import { test } from "@playwright/test"
-import { Loginpage } from "../Vehicle Insurance Application/pages/Pages/practicetestautomation";
+import { Loginpage } from "../../Vehicle Insurance Application/pages/Pages/practicetestautomation";
 
 
 test("verify the login function",async({page})=>{
